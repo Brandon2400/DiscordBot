@@ -111,4 +111,4 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
 	waitingChannel.delete()
 })
 
-client.login("Njk1MDUzNDY2NDI2NjcxMjM0.XoU7tw.59h5OKVO0LwnHK8OTOrv5cZD-Zw");
+client.login(process.env.token);
